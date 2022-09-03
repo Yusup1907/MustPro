@@ -1,0 +1,21 @@
+###
+POST http://localhost:5000/api/v2/properti/new
+Content-Type: application/json
+
+{
+    "name":"Apartemen Cibiru",
+    "description":"Apartemen Mewah ukuran 5x5",
+    "price":25000000,
+    "nego":false,
+    "location":"Cipadung atas dekat sekolah MAN 2 Bandung, Desa Cibiru Kecamatan Cibiru",
+    "facility":"Barang, shower, bakhtub, WiFi, Taman kanak-kanak, Parkiran Luas",
+    "status":"Jual",
+    "images":[
+        {
+            "public_id":"fotos.com",
+            "url":"fotos.com"
+        }
+    ],
+    "category":"Apartemen",
+    "Stock":20
+}
